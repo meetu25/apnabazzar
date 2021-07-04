@@ -1,0 +1,30 @@
+#outerbox
+{
+	
+}
+#sliderbox
+{
+	position: relative;
+	width: 4683px;
+	animation-name:slider;
+	animation-duration: 20s;
+}
+#sliderbox img
+{
+	float: left;
+}
+@keyframes slider
+{
+	0%
+	{
+		left: 0px;
+	}
+	20%
+	{
+		left: 0px;
+	}
+	25%
+	{
+		left: -1370px;
+	}
+}
